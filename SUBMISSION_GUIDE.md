@@ -120,19 +120,7 @@ npm run typecheck
 
 You do not need to deploy the Solidity contract to a real chain.
 
-### What To Fix
-
-Fix the project so that:
-
-- Reading experiments is a read operation, not a wallet transaction.
-- Submitting a result is still a write transaction and waits for confirmation.
-- The frontend does not reload forever or duplicate experiment rows.
-- The backend filters results correctly.
-- The backend does not accidentally corrupt stored result data.
-- The Solidity contract marks read functions correctly.
-- The Solidity write function validates basic inputs.
-- The Web3 ABI/config is inspected and corrected.
-- The frontend and backend agree on the payload hash format.
+Use the symptoms in `PART_2_FIND_THE_BUG.md` to investigate the system. The issues may involve more than one layer, so avoid stopping after the first thing you find.
 
 ### Explanation File
 
@@ -151,36 +139,18 @@ Use this structure:
 
 Briefly describe what was broken and what you changed.
 
-## Frontend
+## Issues Found
 
-- What was broken?
-- What did you change?
-- Why does the fix work?
+List the main issues you found. For each one, include:
 
-## Backend
+- Where it was
+- What was wrong
+- What you changed
+- Why your fix works
 
-- What was broken?
-- What did you change?
-- Why does the fix work?
+## System Notes
 
-## Solidity
-
-- What was broken?
-- What did you change?
-- Why does the fix work?
-
-## Web3 Integration
-
-- What was broken?
-- What did you change?
-- Why does the fix work?
-
-## Decoding / Crypto
-
-- What encoded or hashed data did you inspect?
-- What was inconsistent?
-- What did you change?
-- What does the hash prove, and what does it not prove?
+Mention any assumptions you made about the frontend, backend, contract, or Web3 behavior.
 
 ## Verification
 
