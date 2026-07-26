@@ -61,14 +61,6 @@ npm run frontend
 npm run typecheck
 ```
 
-Create:
-
-```text
-PART_2_EXPLANATION.md
-```
-
-Briefly explain what you changed, why you changed it, and how you verified it.
-
 ## 5. Complete Part 3
 
 Read:
@@ -113,7 +105,6 @@ Send us your branch name when you are done.
 Your branch should include:
 
 - `PART_1_ANSWERS.md`
-- `PART_2_EXPLANATION.md`
 - Your Part 2 code changes
 - `part-3-chat-ui`
 - Completed `AI_USAGE.md`
