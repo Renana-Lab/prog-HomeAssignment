@@ -32,6 +32,12 @@ The home assignment is located in [`part 1`](./part%201/README.md) and contains 
 
 Complete [`AI_USAGE.md`](./part%201/AI_USAGE.md) honestly. AI tools and normal research resources are allowed, but you must understand, verify, and be able to explain everything you submit.
 
+-------------------------------------------------------------------------------------------------------------
+
+Abusing AI to do all/most the work for you might get you disqualified, we scan your codebase using AI detection tools and compare it to what you disclose here. It is highly advised to be as transparent as possible regarding the use of AI/AGENTIC TOOLS.
+
+-------------------------------------------------------------------------------------------------------------
+
 ### Getting Started
 
 ```bash
