@@ -80,3 +80,5 @@ Add a security section to your blueprint that explains:
 You may use one or more diagrams with short supporting notes.
 
 Focus on a clear, practical architecture and data flow. State reasonable assumptions where product details are not provided.
+
+You will present your work in person a the next interview.
