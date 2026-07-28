@@ -13,15 +13,9 @@ Your mission: save the lab.
 3. `PART_3_BUILD_UI.md`
 4. `AI_USAGE.md`
 
-Before starting, read:
-
-`SUBMISSION_GUIDE.md`
-
 ## Submission
 
-Submit your work by pushing your own branch to this repository.
-
-Your branch should include:
+Submit:
 
 - Your answers to Part 1
 - Your code changes for Part 2

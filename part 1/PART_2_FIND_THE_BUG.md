@@ -13,9 +13,9 @@ After returning from a holiday break, the lab discovered that the code no longer
 
 - Loading experiments asks the wallet to approve a transaction.
 - The frontend keeps reloading or duplicating experiments.
-- Backend result loading behaves strangely.
+- Backend result filtering behaves strangely.
 - Saving a result can fail with a payload hash mismatch.
-- Contract interactions are unreliable.
+- Contract reads and writes are not shaped correctly.
 - Some generated Web3 artifacts are encoded and need inspection.
 - The code is messy enough that the team does not trust it.
 
@@ -29,14 +29,15 @@ The broken repo is in:
 
 ## Requirements
 
-Fix the project so that the lab flow works reliably:
+Fix the project so that:
 
-- Experiments can be loaded without unnecessary wallet prompts.
-- Result submission has a clear pending/success/failure flow.
-- Backend result data stays consistent.
-- Contract reads and writes behave according to their purpose.
-- Any encoded or hashed data used by the system is handled consistently.
-- Your explanation covers the meaningful issues you found across the system.
+- Reading experiments is a read operation, not a wallet transaction.
+- The frontend loads experiments once per relevant dependency and does not duplicate rows.
+- Submitting a result still uses a transaction and waits for confirmation.
+- The backend filters results correctly and does not corrupt stored data.
+- The frontend and backend agree on how result payload hashes are calculated.
+- The Solidity contract marks read functions correctly and validates result submissions.
+- Your explanation identifies at least one issue in each layer: frontend, backend, Solidity, Web3 integration, and decoding/crypto.
 
 ## Notes
 
