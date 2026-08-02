@@ -4,6 +4,8 @@
 
 BVEP2 is a research platform used to run browser-based experiments. A participant may, for example, open the collage experiment website and complete a series of tasks.
 
+https://yulia2.d308nlqu98c3r8.amplifyapp.com/home
+
 Participants are anonymous. The research team does not know their real-world identity, but each active experiment session has an internal anonymous participant/session identifier.
 
 While a participant is completing an experiment, a researcher may need to communicate with them in real time. Messages from the researcher should appear inside the experiment page without requiring the participant to leave or refresh it. The participant should also be able to reply from the page. Researchers communicate through a separate researcher dashboard.
